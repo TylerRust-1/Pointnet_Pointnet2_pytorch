@@ -94,7 +94,7 @@ class PartNormalDataset(Dataset):
             cat = self.datapath[index][0]
             cls = self.classes[cat]
             cls = np.array([cls]).astype(np.int32)
-            data = np.loadtxt(fn[1]).astype(np.float32)
+            data = np.loadtxt(fn[1]).astype(float)
             if not self.normal_channel:
                 point_set = data[:, 0:3]
             else:

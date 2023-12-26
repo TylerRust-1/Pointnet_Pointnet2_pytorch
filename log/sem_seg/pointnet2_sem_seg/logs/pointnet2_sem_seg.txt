@@ -1029,3 +1029,21 @@ class clutter        weight: 0.011, IoU: 0.409
 2021-03-23 12:47:10,783 - Model - INFO - Best mIoU: 0.526403
 2021-03-23 12:47:10,783 - Model - INFO - **** Epoch 33 (36/128) ****
 2021-03-23 12:47:10,783 - Model - INFO - Learning rate:0.000343
+2023-12-23 21:23:38,110 - Model - INFO - PARAMETER ...
+2023-12-23 21:23:38,110 - Model - INFO - Namespace(model='pointnet2_sem_seg', batch_size=16, epoch=32, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_sem_seg', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5)
+2023-12-23 21:24:14,092 - Model - INFO - PARAMETER ...
+2023-12-23 21:24:14,093 - Model - INFO - Namespace(model='pointnet2_sem_seg', batch_size=16, epoch=32, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_sem_seg', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5)
+2023-12-23 21:31:17,279 - Model - INFO - PARAMETER ...
+2023-12-23 21:31:17,279 - Model - INFO - Namespace(model='pointnet2_sem_seg', batch_size=16, epoch=32, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_sem_seg', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5)
+2023-12-23 21:31:41,945 - Model - INFO - The number of training data is: 47623
+2023-12-23 21:31:41,945 - Model - INFO - The number of test data is: 18923
+2023-12-23 21:31:42,238 - Model - INFO - Use pretrain model
+2023-12-23 21:31:44,285 - Model - INFO - **** Epoch 1 (15/32) ****
+2023-12-23 21:31:44,286 - Model - INFO - Learning rate:0.000700
+2023-12-24 01:03:35,138 - Model - INFO - PARAMETER ...
+2023-12-24 01:03:35,138 - Model - INFO - Namespace(model='pointnet2_sem_seg', batch_size=16, epoch=32, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_sem_seg', decay_rate=0.0001, npoint=4096, step_size=10, lr_decay=0.7, test_area=5)
+2023-12-24 01:05:02,657 - Model - INFO - The number of training data is: 47623
+2023-12-24 01:05:02,657 - Model - INFO - The number of test data is: 18923
+2023-12-24 01:05:02,741 - Model - INFO - Use pretrain model
+2023-12-24 01:05:03,176 - Model - INFO - **** Epoch 1 (15/32) ****
+2023-12-24 01:05:03,177 - Model - INFO - Learning rate:0.000700
